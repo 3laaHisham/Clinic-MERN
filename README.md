@@ -1,17 +1,30 @@
 # El7a2ny _Virtual Clinic_
-Powered by: _Code of Dudty1_
+
+
+<div style="display: flex;">
+  <img src ="https://img.shields.io/badge/MongoDB-%2347A248?style=for-the-badge&logo=MongoDB&logoColor=white" alt = "Mongo badge">
+  <img src ="https://img.shields.io/badge/Express-%23000000?style=for-the-badge&logo=Express&logoColor=white" alt = "Express badge">
+  <img src ="https://img.shields.io/badge/React.js-%2361DAFB?style=for-the-badge&logo=React&logoColor=black" alt = "React badge">
+  <img src ="https://img.shields.io/badge/Node.js-%2343853D?style=for-the-badge&logo=Node.js&logoColor=white" alt = "Node badge">
+  <img src="https://img.shields.io/badge/Git--%23F05032?style=for-the-badge&logo=Git" alt="Git badge">
+  <img src="https://img.shields.io/badge/Github-Actions-%232088FF?style=for-the-badge&logo=GithubActions" alt="Github Actions badge">
+  <img src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest Badge">
+  <img src ="https://img.shields.io/badge/Socket.IO-%23000000?style=for-the-badge&logo=Socket.IO&logoColor=white" alt = "Socket badge">
+  <img src ="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" alt = "Postman badge">
+   <img src ="https://img.shields.io/badge/redis-%23DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white" alt = "Redis badge">
+  <img src ="https://img.shields.io/badge/JWT-%23000000?style=for-the-badge&logo=JSON%20Web%20Tokens&logoColor=white" alt = "JWT badge">
+  <img src ="https://img.shields.io/badge/Stripe-%231A1A1A?style=for-the-badge&logo=Stripe&logoColor=white" alt = "Stripe badge">
+</div>
 
 ---
 
 ## Project Overview
-El7a2ny Clinic is a standalone virtual healthcare solution designed to streamline patient-doctor interactions. It is being carried out as part of the German University in Cairo's Media Engineering and Technology curriculum for the Winter 2023 semester. The project, which is overseen by Associate Professor Mervat Abuelkheir, combines a virtual clinic platform with a related pharmacy. Encouraging smooth interactions between medical personnel and patients is one of the main goals. The project includes capabilities including prescription management, appointment scheduling, doctor chatting and calling. This effort, which will be implemented utilizing the MERN Stack, aims to deliver a creative and effective healthcare ecosystem.
+El7a2ny Clinic is a standalone virtual healthcare solution designed to streamline patient-doctor interactions. It is being carried out as part of the German University in Cairo's MET curriculum for the Winter 2023 semester. The project combines a virtual clinic platform with a related pharmacy. Encouraging smooth interactions between medical personnel and patients is one of the main goals. The project includes capabilities including prescription management, appointment scheduling, doctor chatting and calling. This effort, which will be implemented utilizing the MERN Stack, aims to deliver a creative and effective healthcare ecosystem.
 
 ---
 
 ## Motivation
 The deep desire to transform the healthcare experience was the motivation behind the creation of the El7a2ny clinic initiative. Understanding the dynamic nature of healthcare, our goal was to tackle the intricacies involved in the relationships between patients and doctors. The initiative was born out of a desire to make healthcare more accessible and user-friendly by streamlining and automating numerous aspects of the system.
-
-We saw a chance to harness the power of digital solutions to help patients and healthcare providers in a world where technology is essential to improving daily lives. The driving force is the ambition to establish an online clinic ecosystem that crosses conventional lines and provides effective and comprehensive medical treatment.
 
 We hope that this project will help to further the continuing transformation of healthcare delivery. El7a2ny is a symbol of our dedication to creative ideas that can raise people's general quality of life and make healthcare systems more effective.
 
@@ -19,24 +32,72 @@ We hope that this project will help to further the continuing transformation of 
 
 ## Build Status 🔨
 
-- The project is currently in development.
-- The Unit tests needs modifications.
+- The Unit tests needs Extension.
 - A caching layer needs to be added to the application.
 - Payment method through Valu and other installment application needs to be added.
 
 
 ---
-## Screenshots🖵
+## Screenshots 🖵
 
--![upload images](./screenshots/35.jpeg)
--![signin](./screenshots/d11.png)
--![getAppointment](./screenshots/41.jpeg)
--![signUp](./screenshots/d13.png)
--![getAppointment](./screenshots/42.jpeg)
--![getAppointment](./screenshots/43.jpeg)
--![getAppointment](./screenshots/44.jpeg)
--![getAppointment](./screenshots/45.jpeg)
--![getAppointment](./screenshots/46.jpeg)
+<details>
+<summary>Login Page</summary>  
+   
+ ![login](https://github.com/3laaHisham/Clinic-MERN/blob/main/screenshots/Login.jpeg)
+ 
+</details>
+
+<details>
+<summary>Home Page</summary>  
+	
+ ![home](https://github.com/3laaHisham/Clinic-MERN/blob/main/screenshots/Home.jpeg)
+ 
+</details>
+
+
+<details>
+<summary>Doctors</summary>  
+	
+![apply-filter](https://github.com/3laaHisham/Clinic-MERN/blob/main/screenshots/Doctors.jpeg)
+ 
+</details>
+
+<details>
+   
+<summary>Forgot Password</summary>  
+	
+![notification](https://github.com/3laaHisham/Clinic-MERN/blob/main/screenshots/Forgot-password.jpeg)
+ 
+</details>
+
+<details>
+<summary>Health Package Page</summary>  
+	
+ ![health-package](https://github.com/3laaHisham/Clinic-MERN/blob/main/screenshots/Packages.jpeg)
+ 
+</details>
+
+<details>
+<summary>Appointments Page</summary>  
+	
+ ![appointments](https://github.com/3laaHisham/Clinic-MERN/blob/main/screenshots/Appointments.jpeg)
+</details>
+
+
+<details>
+<summary>Medicine</summary>  
+	
+![add-member](https://github.com/3laaHisham/Clinic-MERN/blob/main/screenshots/Medicine.jpeg)
+</details>
+
+<details>
+<summary>Chat</summary>  
+	
+![requests](https://github.com/3laaHisham/Clinic-MERN/blob/main/screenshots/Chat.jpeg)
+
+</details>
+
+
 
 ## Tech/Framework Used🧰
 In order to provide a reliable and effective virtual clinic solution, the El7a2ny project makes use of a contemporary technology stack. The principal technologies and frameworks integrated into the project are listed below:
@@ -293,9 +354,7 @@ Follow these steps to run the El7a2ny project on your local machine:
 ## Screenshots🖵
 
 -![login](./screenshots/d4.png)
--![adding prescription](./screenshots/d5.png)
 -![get Doctors](./screenshots/d6.png)
--![logout](./screenshots/d7.png)
 
 ---
 ## API References
@@ -305,7 +364,7 @@ In the El7a2ny project, we have implemented a range of API routes to ensure smoo
 - **Auth Routes**: Handling user authentication processes like registration, login, password recovery, etc.
 - **Doctor Routes**: Facilitating interactions with doctor profiles, including appointments and availability.
 - **Me Routes**: Personalized routes for users, managing their information, appointments, medical history, etc.
-**Patient Routes**: Pertaining to patient information, medical records, and related functionalities.
+- **Patient Routes**: Pertaining to patient information, medical records, and related functionalities.
 - **Payment Routes**: Handling payment processes, including transaction management and payment session initiation.
 - **Prescription Routes**: Dealing with prescription management, including adding, updating, and removing medicines.
 - **User Routes**: Managing user profiles, including user data retrieval and updates.
@@ -397,14 +456,13 @@ By following these steps, you contribute to the improvement of the project. Than
 
 - [Abdulrahman Fahmy](https://www.linkedin.com/in/abdulrhman-fahmy) 
 - [Alaa Hisham](https://www.linkedin.com/in/alaahisham) 
-- [Zeyad Hesham](https://www.linkedin.com/in/zeyad-hesham-174941242/) 
-- [Ali Hussein](https://www.linkedin.com/in/ali-adam-875653245)
-- [Abdallah Bahaa](http://linkedin.com/in/abdallah-khalil-a06237240)
-- [Mark Mahrous](https://www.linkedin.com/in/mark-mahrous-421186222/)
-- [Eslam Gamal](https://www.linkedin.com/in/eslam-gamal-895350204)
-- [Yousef Badr](https://www.linkedin.com/in/yousef-badr-81197629b/)
 - [Boles waheed](https://www.linkedin.com/in/boles-waheed-b9529622b)
-- [Traversy media yt channel](https://www.youtube.com/watch?v=-0exw-9YJBo&list=PLillGF-RfqbbQeVSccR9PGKHzPJSWqcsm) short mern stack playlist helped us alot!
+- [Mark Mahrous](https://www.linkedin.com/in/mark-mahrous-421186222/)
+- [Yousef Badr](https://www.linkedin.com/in/yousef-badr-81197629b/)
+- [Ali Hussein](https://www.linkedin.com/in/ali-adam-875653245)
+- [Zeyad Hesham](https://www.linkedin.com/in/zeyad-hesham-174941242/) 
+- [Eslam Gamal](https://www.linkedin.com/in/eslam-gamal-895350204)
+- [Abdallah Bahaa](http://linkedin.com/in/abdallah-khalil-a06237240)
 
 ---
 
