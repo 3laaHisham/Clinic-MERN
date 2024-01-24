@@ -1,4 +1,4 @@
-import Redis from 'ioredis';
+import Redis from 'ioredis-mock';
 import { StatusCodes } from 'http-status-codes';
 import { HttpError } from './HttpError';
 import path from 'path';

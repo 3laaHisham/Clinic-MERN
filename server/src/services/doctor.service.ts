@@ -2,7 +2,7 @@ const { v4: uuidv4 } = require('uuid');
 import { HttpError } from '../utils';
 
 import StatusCodes from 'http-status-codes';
-import { Contract, Appointment, IDoctor, Doctor, Request, Patient, Package } from '../models';
+import { Contract, Appointment, IDoctor, Doctor, Request, Patient, Package, Admin } from '../models';
 
 const getMyPatients = async (query: any) => {
   const patientIDs = await Appointment.find(query).distinct('patientID');
@@ -148,7 +148,7 @@ const getDoctors = async (query: any) => {
         return false;
       })
     );
-    
+
     doctors = doctors.filter((doctor: any, index: number) => filteredDoctors[index]);
   }
 
